@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 16px 0;
+    background-color: #32CD32;
+    color: #000000;
+}
+
+body,
+input,
+textarea{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1{
+    font-weight: normal;
+}
+
+h1{
+    font-family: cursive;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+header nav li a{
+    color: #000000;
+    text-decoration: none;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+body{
+    background-color: #b9fcb9;
+}
+
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container h2{
+    font-size: 22px;
+}
+
+.container p{
+    font-size: 18px;
+}
+
+.bandeira img{
+    height: 55px;
+}
+
+.bandeira li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.redes img{
+    height: 40px;
+}
+
+.redes li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.redes li a{
+    text-decoration: none;
+}
+
+#contato .container{
+    display: block;
+}
+
+section{
+    padding: 24px 0;
+    color: #064706;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+.minha{
+    margin-right: 34px;
+}
+.minha{
+    height: 37rem;
+}
+
+.contacto{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button{
+    background-color: #32CD32;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #064706;
+}
+
+input:focus, textarea:focus{
+    outline-color: #00FA9A;
+}
+
+footer {
+    background-color: #32CD32;
+    color: #000000;
+    padding: 26px 0;
+}
